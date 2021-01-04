@@ -1,0 +1,23 @@
+{
+  "name": "rdsmanager-dev",
+  "version": "1.0.0",
+  "description": "AWS Lambda App for managing my AWS MYSQL DB",
+  "main": "handler.js",
+  "dependencies": {
+    "serverless-mysql": "^1.5.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZehCoque/RDSManager-DEV.git"
+  },
+  "author": "José Antonio Rico Coque",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ZehCoque/RDSManager-DEV/issues"
+  },
+  "homepage": "https://github.com/ZehCoque/RDSManager-DEV#readme"
+}

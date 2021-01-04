@@ -7,6 +7,8 @@ function query_builder(selector, params) {
         return 'SELECT * from unimed.requisições'
     } else if (selector == 'update_requisição_status') {
         return 'UPDATE `unimed`.`requisições` SET `Status` = \'' + params.Status + '\' WHERE (`ID` = \'' + params.ID +'\');'
+    } else if (selector == 'get_one_exame') {
+        return 'SELECT * from unimed.requisições WHERE `ID` = \'' + params.ID + '\''
     }
 }
 
